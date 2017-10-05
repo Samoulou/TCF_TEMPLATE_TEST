@@ -16,7 +16,7 @@ var gulp           = require("gulp"),
 var config = {
     paths: {
         html: {
-            src:  "index.html",
+            src:  ["index.html","en/index.html","en/about/index.html"],
             dest: "build"
         },
         javascript: {
